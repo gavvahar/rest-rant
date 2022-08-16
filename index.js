@@ -8,6 +8,7 @@ app.engine("jsx", require("express-react-views").createEngine());
 app.use("/places", require("./controllers/places"));
 
 app.get("/", (req, res) => {
+  let places = [];
   res.render("home");
 });
 
