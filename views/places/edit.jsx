@@ -27,7 +27,35 @@ function edit_form (data) {
           value={data.place.pic}
           />
       </div>
+      <div className="form-group col-sm-6">
+          <label htmlFor="city">Place City</label>
+          <input
+          className='form-control'
+          id="city"
+          name='city'
+          value={data.place.city}
+          />
+      </div>
+      <div className="form-group col-sm-6">
+          <label htmlFor="state">Place State</label>
+          <input
+          className='form-control'
+          id="state"
+          name='state'
+          value={data.place.state}
+          />
+      </div>
+      <div className="form-group col-sm-6">
+          <label htmlFor="cuisines">Place Cuisines</label>
+          <input
+          className='form-control'
+          id="cuisines"
+          name='cuisines'
+          value={data.place.cuisines}
+          required/>
+      </div>
   </div>
+  <input className="btn btn-primary" type="submit" value="Add Place" />
 </form>
         </Def>
     )
