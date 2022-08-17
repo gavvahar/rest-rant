@@ -25,7 +25,7 @@ function edit_form (data) {
           id="pic"
           name='pic'
           value={data.place.pic}
-          required/>
+          />
       </div>
   </div>
 </form>
