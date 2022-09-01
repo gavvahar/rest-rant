@@ -4,9 +4,10 @@
   "engines": {
     "node": "16.x"
   },
-  "description": "",
+  "description": "REST-Rant is an app where users can review restaurants.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -20,5 +21,14 @@
     "mongoose": "^6.5.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavvahar/rest-rant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gavvahar/rest-rant/issues"
+  },
+  "homepage": "https://github.com/gavvahar/rest-rant#readme"
 }
