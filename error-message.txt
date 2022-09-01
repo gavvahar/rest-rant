@@ -1,0 +1,61 @@
+$ heroku logs --tail
+
+
+2022-09-01T15:31:03.430436+00:00 app[api]: Release v1 created by user nihargavva@hotmail.com
+2022-09-01T15:31:03.430436+00:00 app[api]: Initial release by user nihargavva@hotmail.com
+2022-09-01T15:31:03.576279+00:00 app[api]: Enable Logplex by user nihargavva@hotmail.com
+2022-09-01T15:31:03.576279+00:00 app[api]: Release v2 created by user nihargavva@hotmail.com
+2022-09-01T15:32:22.000000+00:00 app[api]: Build started by user nihargavva@hotmail.com
+2022-09-01T15:32:33.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/ee6f77c1-4d7e-4631-9d7b-645f10290ee9/activity/builds/04faf7f6-ac25-480c-a506-618ef17cc625
+2022-09-01T15:38:01.699378+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=gavvahars-rest-rant.herokuapp.com request_id=e19c67a8-a32a-46c1-92e3-ded57165683b fwd="98.110.36.184" dyno= connect= service= status=502 bytes= protocol=https
+2022-09-01T15:38:02.045528+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=gavvahars-rest-rant.herokuapp.com request_id=887b8b6a-48d5-46e0-ae77-c85883adaee2 fwd="98.110.36.184" dyno= connect= service= status=502 bytes= protocol=https
+2022-09-01T15:46:03.000000+00:00 app[api]: Build started by user nihargavva@hotmail.com
+2022-09-01T15:46:12.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/ee6f77c1-4d7e-4631-9d7b-645f10290ee9/activity/builds/a029ce2a-4345-4ca9-a72f-8279e1b2e07a
+2022-09-01T15:57:07.000000+00:00 app[api]: Build started by user nihargavva@hotmail.com
+2022-09-01T15:57:16.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/ee6f77c1-4d7e-4631-9d7b-645f10290ee9/activity/builds/9482ddad-cd3d-473b-9fb8-1792da406d4a
+2022-09-01T16:00:17.000000+00:00 app[api]: Build started by user nihargavva@hotmail.com
+2022-09-01T16:00:26.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/ee6f77c1-4d7e-4631-9d7b-645f10290ee9/activity/builds/02174ae9-9755-406b-9864-7862df6d1a39
+2022-09-01T16:01:59.000000+00:00 app[api]: Build started by user nihargavva@hotmail.com
+2022-09-01T16:02:09.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/ee6f77c1-4d7e-4631-9d7b-645f10290ee9/activity/builds/b8b6b592-2ae3-4e4f-9b3d-b4b159b40898
+2022-09-01T16:04:45.000000+00:00 app[api]: Build started by user nihargavva@hotmail.com
+2022-09-01T16:04:55.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/ee6f77c1-4d7e-4631-9d7b-645f10290ee9/activity/builds/2031310e-c32a-4ff0-8cbc-5057d8e606c0
+2022-09-01T16:08:26.000000+00:00 app[api]: Build started by user nihargavva@hotmail.com
+2022-09-01T16:08:37.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/ee6f77c1-4d7e-4631-9d7b-645f10290ee9/activity/builds/1c888141-d441-4507-8ddb-784c2123aa9e
+2022-09-01T16:10:26.655375+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=gavvahars-rest-rant.herokuapp.com request_id=ed4c1dfe-21c8-4232-81b8-5143ea577aa9 fwd="98.110.36.184" dyno= connect= service= status=502 bytes= protocol=https
+2022-09-01T16:10:26.942174+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=gavvahars-rest-rant.herokuapp.com request_id=57af4496-59ca-4b4d-bc6d-a3da033dbde5 fwd="98.110.36.184" dyno= connect= service= status=502 bytes= protocol=https
+2022-09-01T16:54:03.000000+00:00 app[api]: Build started by user nihargavva@hotmail.com
+2022-09-01T16:54:27.053541+00:00 app[api]: Release v3 created by user nihargavva@hotmail.com
+2022-09-01T16:54:27.053541+00:00 app[api]: Deploy 78457c78 by user nihargavva@hotmail.com
+2022-09-01T16:54:27.067449+00:00 app[api]: Scaled to web@1:Free by user nihargavva@hotmail.com
+2022-09-01T16:54:28.000000+00:00 app[api]: Build succeeded
+2022-09-01T16:54:29.487224+00:00 heroku[web.1]: Starting process with command `npm start`
+2022-09-01T16:54:31.221318+00:00 app[web.1]: npm ERR! Missing script: "start"
+2022-09-01T16:54:31.221456+00:00 app[web.1]: npm ERR!
+2022-09-01T16:54:31.221575+00:00 app[web.1]: npm ERR! Did you mean one of these?
+2022-09-01T16:54:31.221631+00:00 app[web.1]: npm ERR!     npm star # Mark your favorite packages
+2022-09-01T16:54:31.221742+00:00 app[web.1]: npm ERR!     npm stars # View packages marked as favorites
+2022-09-01T16:54:31.221784+00:00 app[web.1]: npm ERR!
+2022-09-01T16:54:31.221817+00:00 app[web.1]: npm ERR! To see a list of scripts, run:
+2022-09-01T16:54:31.221908+00:00 app[web.1]: npm ERR!   npm run
+2022-09-01T16:54:31.223461+00:00 app[web.1]:
+2022-09-01T16:54:31.223609+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2022-09-01T16:54:31.223655+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2022-09-01T16_54_31_179Z-debug-0.log
+2022-09-01T16:54:31.370113+00:00 heroku[web.1]: Process exited with status 1
+2022-09-01T16:54:31.766279+00:00 heroku[web.1]: State changed from starting to crashed
+2022-09-01T16:54:31.770072+00:00 heroku[web.1]: State changed from crashed to starting
+2022-09-01T16:54:34.420583+00:00 heroku[web.1]: Starting process with command `npm start`
+2022-09-01T16:54:36.410874+00:00 app[web.1]: npm ERR! Missing script: "start"
+2022-09-01T16:54:36.411245+00:00 app[web.1]: npm ERR!
+2022-09-01T16:54:36.411591+00:00 app[web.1]: npm ERR! Did you mean one of these?
+2022-09-01T16:54:36.411757+00:00 app[web.1]: npm ERR!     npm star # Mark your favorite packages
+2022-09-01T16:54:36.412006+00:00 app[web.1]: npm ERR!     npm stars # View packages marked as favorites
+2022-09-01T16:54:36.412146+00:00 app[web.1]: npm ERR!
+2022-09-01T16:54:36.412253+00:00 app[web.1]: npm ERR! To see a list of scripts, run:
+2022-09-01T16:54:36.412516+00:00 app[web.1]: npm ERR!   npm run
+2022-09-01T16:54:36.414951+00:00 app[web.1]:
+2022-09-01T16:54:36.415349+00:00 app[web.1]: npm ERR! A complete log of this run can be found in:
+2022-09-01T16:54:36.415500+00:00 app[web.1]: npm ERR!     /app/.npm/_logs/2022-09-01T16_54_36_341Z-debug-0.log
+2022-09-01T16:54:36.547138+00:00 heroku[web.1]: Process exited with status 1
+2022-09-01T16:54:36.635974+00:00 heroku[web.1]: State changed from starting to crashed
+2022-09-01T16:54:39.450872+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=gavvahars-rest-rant.herokuapp.com request_id=f901e4e4-6976-4752-afbf-ae3c658bbbf3 fwd="98.110.36.184" dyno= connect= service= status=503 bytes= protocol=https
+2022-09-01T16:54:39.906196+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=gavvahars-rest-rant.herokuapp.com request_id=b279393b-bbb9-41fa-bb59-8f95d4be2921 fwd="98.110.36.184" dyno= connect= service= status=503 bytes= protocol=https
